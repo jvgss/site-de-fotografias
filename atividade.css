@@ -1,0 +1,343 @@
+:root {
+    --primary-color: #3498db;
+    /*Azul*/
+    --secondary-color: #2ecc71;
+    /*Verde*/
+    --accent-color: #e74c3c;
+    /*Laranja*/
+    --background-color: #ecf0f1;
+    /*Cinza Claro*/
+    --text-color: hsl(210, 29%, 24%);
+    /*Quase Preto*/
+    --roxo-color: #7B68EE;
+    --creme-color: #FFF8DC;
+    --cinza-escuro-color: #333333;
+    --olivia-color: #808000;
+    --azul-ceu-color: #87CEEB;
+    --prateado: #C0C0C0;
+    --azul-escuro: #00008B;
+    --azul: #007bff;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 42px;
+    background-image: url("imagens/camera.jpg");
+    background-size: contain;
+    color: white;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+    
+/* Estilos para o menu de navegação */
+nav {
+    /* Cor de fundo do menu */
+    background-image: url("./imagens/estudio-fotografico-sp-4.jpg");
+}
+
+/* Estilos para a lista de itens do menu */
+nav ul {
+    list-style-type: none;
+    /* Remover marcadores de lista */
+    padding: 0;
+    /* Remover preenchimento padrão */
+    margin: 0;
+    /* Remover margem padrão */
+
+
+}
+
+/* Estilos para os itens do menu */
+nav ul li {
+    display: inline;
+    /* Exibir os itens em linha */
+
+}
+
+/* Estilos para os links do menu */
+nav a {
+    display: inline-block;
+    /* Tornar os links em bloco em linha */
+    color: white;
+    text-decoration: none;
+    /* Remover sublinhado padrão */
+    padding: 25px 100px;
+    /* Espaçamento interno */
+
+}
+
+
+/* Estilos para os links do menu quando hover */
+nav a:hover {
+    background-color: #555;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: "";
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+.hamburger::before {
+    top: -8px;
+}
+
+.hamburger::after {
+    top: 8px;
+}
+
+.textoinicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./imagens/6f834604-4b83-4b75-8a29-89b5e3cebd13.jpg);
+    background-size: contain;
+
+
+}
+
+.p-inicio {
+    height: auto;
+    width: 300px;
+    box-shadow: inset 0px 0px 0px 2px var(--creme-color),
+        5px 0px 2px 2px var(--creme-color);
+    background-color: var(--roxo-color);
+
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+.p-inicio2 {
+    height: auto;
+    width: 300px;
+    box-shadow: inset 0px 0px 0px 2px var(--creme-color),
+        5px 0px 2px 2px var(--creme-color);
+    background-color: var(--roxo-color);
+
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.textoinicio2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./imagens/6f834604-4b83-4b75-8a29-89b5e3cebd13.jpg);
+    background-size: contain;
+  
+
+}
+
+.estilos{  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./imagens/estudio-fotografico-sp-4.jpg);
+    background-size: contain;
+    flex-wrap: wrap;
+}
+    
+
+    
+
+
+
+
+
+
+
+.ensaios{
+    height: 500px;
+    width: 500px;
+    box-shadow: inset 0px 0px 0px 2px var(--creme-color),
+        5px 0px 2px 2px var(--creme-color);
+    background-color: var(--cinza-escuro-color);
+    background-image: url(./imagens/camera.jpg);
+    background-size: contain;
+    border: 1px solid black;
+    text-align: center;
+    flex-wrap: wrap;
+}
+    
+
+
+
+
+
+.familia{
+    height: 500px;
+    width: 500px;
+    box-shadow: inset 0px 0px 0px 2px var(--creme-color),
+        5px 0px 2px 2px var(--creme-color);
+    background-color: var(--cinza-escuro-color);
+    background-image: url(./imagens/familia2.jpg);
+    background-size: contain;
+    border: 1px solid black;
+    text-align: center;
+    flex-wrap: wrap;
+}
+    
+    
+
+
+
+.feminino{
+    height: 500px;
+    width: 500px;
+    box-shadow: inset 0px 0px 0px 2px var(--creme-color),
+        5px 0px 2px 2px var(--creme-color);
+    background-color: var(--cinza-escuro-color);
+    background-image: url(./imagens/feminino2.jpg);
+    background-size: contain;
+    border: 1px solid black;
+    text-align: center;
+   
+    
+}
+
+.gestantes{
+    height: 500px;
+    width: 500px;
+    box-shadow: inset 0px 0px 0px 2px var(--creme-color),
+        5px 0px 2px 2px var(--creme-color);
+    background-color: var(--cinza-escuro-color);
+    background-image: url(./imagens/gestantes3.jpg);
+    background-size: contain;
+    border: 1px solid black;
+    text-align: center;
+   
+   
+}
+
+.festas{
+    height: 500px;
+    width: 500px;
+    box-shadow: inset 0px 0px 0px 2px var(--creme-color),
+        5px 0px 2px 2px var(--creme-color);
+    background-color: var(--cinza-escuro-color);
+    background-image: url(./imagens/momentos3.jpg);
+    background-size: contain;
+    border: 1px solid black;
+    text-align: center;
+  
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.fotos  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./imagens/estudio-fotografico-sp-4.jpg);
+    background-size: contain;
+    
+
+}
+
+
+
+
+
+
+/* Estilos básicos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--roxo-color);
+    border: 1px solid #333;
+    flex-wrap: wrap;
+    color: white;
+
+}
+
+
+@media (max-width: 768px) {
+    .flex-item {
+        flex: 1 1 calc(50% - 2rem);
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-item {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .nav-item a {
+        display: block;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-item {
+        flex: 1 1 100%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+}
